@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useFetch } from '../hooks/useFetch';
-import movieImg from '../assets/movie-poster.png';
+import movieImg from '../assets/images/movie.png';
 import { useTitle } from '../hooks/useTitle';
 
 export const MovieDetail = ({ apiPath }) => {
