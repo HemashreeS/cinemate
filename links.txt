@@ -1,0 +1,14 @@
+All records
+https://www.freetestapi.com/api/v1/movies
+
+single record:
+https://freetestapi.com/api/v1/movies/1
+
+Top Rated:
+https://freetestapi.com/api/v1/movies?sort=rating&order=desc
+
+Popular:
+https://freetestapi.com/api/v1/movies?sort=boxOffice&order=desc
+
+search by title:
+https://freetestapi.com/api/v1/movies?search=[query]
