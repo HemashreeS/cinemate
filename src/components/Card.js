@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import movieImg from '../assets/images/movie.png';
+import movieImg from '../assets/images/shawshank.png';
 
 export const Card = ({movie}) => {
     const {id, title, plot} = movie;
   return (
     <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-3">
         <Link to={`/movie/${id}`}>
-            <img className="rounded-t-lg" src={movieImg} alt="" />
+            <img className="rounded-t-lg w-full" src={movieImg} alt="" />
         </Link>
         <div className="p-5">
             <Link to={`/movie/${id}`}>

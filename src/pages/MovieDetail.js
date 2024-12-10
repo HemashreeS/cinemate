@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useFetch } from '../hooks/useFetch';
-import movieImg from '../assets/images/movie.png';
+import movieImg from '../assets/images/shawshank.png';
 import { useTitle } from '../hooks/useTitle';
 
 export const MovieDetail = ({ apiPath }) => {
@@ -17,7 +17,7 @@ export const MovieDetail = ({ apiPath }) => {
     <main>
       <section className="flex justify-around flex-wrap py-5">
         <div className="max-w-sm">
-          <img src={movieImg} alt={movie.title} />
+          <img className="h-full max-w-none" src={movieImg} alt={movie.title} />
         </div>
         <div className="max-w-2xl text-gray-800 text-lg dark:text-white">
           <h1 className="text-4xl font-bold my-3 text-center lg:text-left">{movie.title}</h1>
